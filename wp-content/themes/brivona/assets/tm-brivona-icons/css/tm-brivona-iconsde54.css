@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'tm-brivona-icons';
+  src: url('../font/tm-brivona-iconsa3f8.eot?35740882');
+  src: url('../font/tm-brivona-iconsa3f8.eot?35740882#iefix') format('embedded-opentype'),
+       url('../font/tm-brivona-iconsa3f8.woff2?35740882') format('woff2'),
+       url('../font/tm-brivona-iconsa3f8.woff?35740882') format('woff'),
+       url('../font/tm-brivona-iconsa3f8.ttf?35740882') format('truetype'),
+       url('../font/tm-brivona-iconsa3f8.svg?35740882#tm-brivona-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'tm-brivona-icons';
+    src: url('../font/tm-brivona-icons.svg?35740882#tm-brivona-icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="tm-brivona-icon-"]:before, [class*=" tm-brivona-icon-"]:before {
+  font-family: "tm-brivona-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.tm-brivona-icon-google-drive:before { content: '\e800'; } /* '' */
+.tm-brivona-icon-issuu:before { content: '\e801'; } /* '' */
+.tm-brivona-icon-user:before { content: '\e802'; } /* '' */
+.tm-brivona-icon-music:before { content: '\e803'; } /* '' */
+.tm-brivona-icon-video:before { content: '\e804'; } /* '' */
+.tm-brivona-icon-quote:before { content: '\e805'; } /* '' */
+.tm-brivona-icon-aside:before { content: '\e806'; } /* '' */
+.tm-brivona-icon-rss:before { content: '\e807'; } /* '' */
+.tm-brivona-icon-angle-left:before { content: '\e808'; } /* '' */
+.tm-brivona-icon-angle-right:before { content: '\e809'; } /* '' */
+.tm-brivona-icon-status:before { content: '\e80a'; } /* '' */
+.tm-brivona-icon-dribbble:before { content: '\e80b'; } /* '' */
+.tm-brivona-icon-facebook:before { content: '\e80c'; } /* '' */
+.tm-brivona-icon-flickr:before { content: '\e80d'; } /* '' */
+.tm-brivona-icon-gplus:before { content: '\e80e'; } /* '' */
+.tm-brivona-icon-instagram:before { content: '\e80f'; } /* '' */
+.tm-brivona-icon-linkedin:before { content: '\e810'; } /* '' */
+.tm-brivona-icon-pinterest:before { content: '\e811'; } /* '' */
+.tm-brivona-icon-twitter:before { content: '\e812'; } /* '' */
+.tm-brivona-icon-vk:before { content: '\e813'; } /* '' */
+.tm-brivona-icon-xing:before { content: '\e814'; } /* '' */
+.tm-brivona-icon-yelp:before { content: '\e815'; } /* '' */
+.tm-brivona-icon-youtube:before { content: '\e816'; } /* '' */
+.tm-brivona-icon-gallery:before { content: '\e817'; } /* '' */
+.tm-brivona-icon-plus:before { content: '\e818'; } /* '' */
+.tm-brivona-icon-link:before { content: '\e819'; } /* '' */
+.tm-brivona-icon-tag:before { content: '\e81a'; } /* '' */
+.tm-brivona-icon-clock:before { content: '\e81b'; } /* '' */
+.tm-brivona-icon-heart:before { content: '\e81c'; } /* '' */
+.tm-brivona-icon-sticky:before { content: '\e81d'; } /* '' */
+.tm-brivona-icon-marker:before { content: '\e81e'; } /* '' */
+.tm-brivona-icon-comment:before { content: '\e81f'; } /* '' */
+.tm-brivona-icon-chat:before { content: '\e820'; } /* '' */
+.tm-brivona-icon-podcast:before { content: '\e821'; } /* '' */
+.tm-brivona-icon-houzz:before { content: '\e822'; } /* '' */
+.tm-brivona-icon-image:before { content: '\e823'; } /* '' */
+.tm-brivona-icon-cart:before { content: '\e824'; } /* '' */
+.tm-brivona-icon-search:before { content: '\e825'; } /* '' */
+.tm-brivona-icon-arrow-right:before { content: '\e826'; } /* '' */
+.tm-brivona-icon-pencil:before { content: '\e827'; } /* '' */
+.tm-brivona-icon-mobile:before { content: '\e828'; } /* '' */
+.tm-brivona-icon-comment-1:before { content: '\e829'; } /* '' */
+.tm-brivona-icon-world:before { content: '\e82a'; } /* '' */
+.tm-brivona-icon-location-pin:before { content: '\e82b'; } /* '' */
+.tm-brivona-icon-quote-left:before { content: '\e82c'; } /* '' */
+.tm-brivona-icon-close:before { content: '\e82d'; } /* '' */
+.tm-brivona-icon-comments-smiley:before { content: '\e82e'; } /* '' */
+.tm-brivona-icon-category:before { content: '\e82f'; } /* '' */
+.tm-brivona-icon-tag-1:before { content: '\e830'; } /* '' */
+.tm-brivona-icon-shift-right:before { content: '\e831'; } /* '' */
+.tm-brivona-icon-mail:before { content: '\e832'; } /* '' */
+.tm-brivona-icon-phone:before { content: '\e833'; } /* '' */
+.tm-brivona-icon-arrow-left:before { content: '\e834'; } /* '' */
+.tm-brivona-icon-gallery-1:before { content: '\e835'; } /* '' */
+.tm-brivona-icon-music-alt:before { content: '\e836'; } /* '' */
+.tm-brivona-icon-shopping-cart:before { content: '\e837'; } /* '' */
+.tm-brivona-icon-heart-empty:before { content: '\e838'; } /* '' */
+.tm-brivona-icon-check:before { content: '\e839'; } /* '' */
+.tm-brivona-icon-arrow-left-1:before { content: '\e83a'; } /* '' */
+.tm-brivona-icon-plus-1:before { content: '\e83b'; } /* '' */
+.tm-brivona-icon-unlink:before { content: '\e83c'; } /* '' */
+.tm-brivona-icon-quote-right:before { content: '\e83d'; } /* '' */
+.tm-brivona-icon-home:before { content: '\e83e'; } /* '' */
+.tm-brivona-icon-angle-double-right:before { content: '\e83f'; } /* '' */
+.tm-brivona-icon-angle-double-left:before { content: '\e840'; } /* '' */
+.tm-brivona-icon-search-1:before { content: '\e841'; } /* '' */
+.tm-brivona-icon-eye:before { content: '\e842'; } /* '' */
+.tm-brivona-icon-basket:before { content: '\e843'; } /* '' */
+.tm-brivona-icon-paper-plane:before { content: '\e844'; } /* '' */
+.tm-brivona-icon-arrow-circle-down:before { content: '\e845'; } /* '' */
+.tm-brivona-icon-minus:before { content: '\e846'; } /* '' */
+.tm-brivona-icon-minus-1:before { content: '\e847'; } /* '' */
+.tm-brivona-icon-left-open-big:before { content: '\e848'; } /* '' */
+.tm-brivona-icon-right-open-big:before { content: '\e849'; } /* '' */
+.tm-brivona-icon-location:before { content: '\e84a'; } /* '' */
+.tm-brivona-icon-comment-3:before { content: '\e84b'; } /* '' */
+.tm-brivona-icon-user-1:before { content: '\e84c'; } /* '' */
+.tm-brivona-icon-star-1:before { content: '\e84d'; } /* '' */
+.tm-brivona-icon-star-empty-1:before { content: '\e84e'; } /* '' */
+.tm-brivona-icon-folder:before { content: '\e84f'; } /* '' */
+.tm-brivona-icon-angle-up:before { content: '\f106'; } /* '' */
+.tm-brivona-icon-angle-down:before { content: '\f107'; } /* '' */
+.tm-brivona-icon-quote-right-1:before { content: '\f10e'; } /* '' */
+.tm-brivona-icon-tumblr:before { content: '\f173'; } /* '' */
+.tm-brivona-icon-stumbleupon:before { content: '\f1a4'; } /* '' */
+.tm-brivona-icon-digg:before { content: '\f1a6'; } /* '' */
+.tm-brivona-icon-whatsapp:before { content: '\f232'; } /* '' */
+.tm-brivona-icon-reddit:before { content: '\f281'; } /* '' */
+.tm-brivona-icon-vimeo:before { content: '󨇎'; } /* '\e81ce' */

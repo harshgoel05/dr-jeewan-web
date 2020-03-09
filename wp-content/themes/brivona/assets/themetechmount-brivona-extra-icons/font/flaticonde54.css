@@ -1,0 +1,100 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/11/2018 07:06
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-dentist:before { content: "\f100"; }
+.flaticon-hygiene:before { content: "\f101"; }
+.flaticon-dentist-1:before { content: "\f102"; }
+.flaticon-dentist-2:before { content: "\f103"; }
+.flaticon-pill:before { content: "\f104"; }
+.flaticon-pharmacy:before { content: "\f105"; }
+.flaticon-donation:before { content: "\f106"; }
+.flaticon-shield:before { content: "\f107"; }
+.flaticon-pills:before { content: "\f108"; }
+.flaticon-syringe:before { content: "\f109"; }
+.flaticon-pills-1:before { content: "\f10a"; }
+.flaticon-hospital:before { content: "\f10b"; }
+.flaticon-doctor-2:before { content: "\f10c"; }
+.flaticon-sick:before { content: "\f10d"; }
+.flaticon-eye-1:before { content: "\f10e"; }
+.flaticon-watch:before { content: "\f10f"; }
+.flaticon-child:before { content: "\f110"; }
+.flaticon-hospital-1:before { content: "\f111"; }
+.flaticon-cross:before { content: "\f112"; }
+.flaticon-report:before { content: "\f113"; }
+.flaticon-clinic:before { content: "\f114"; }
+.flaticon-ear:before { content: "\f115"; }
+.flaticon-eye-2:before { content: "\f116"; }
+.flaticon-heart-1:before { content: "\f117"; }
+.flaticon-heart-2:before { content: "\f118"; }
+.flaticon-heart-3:before { content: "\f119"; }
+.flaticon-doctor-3:before { content: "\f11a"; }
+.flaticon-report-1:before { content: "\f11b"; }
+.flaticon-eye-3:before { content: "\f11c"; }
+.flaticon-leaf:before { content: "\f11d"; }
+.flaticon-doctor-4:before { content: "\f11e"; }
+.flaticon-hospital-2:before { content: "\f11f"; }
+.flaticon-first-aid-kit:before { content: "\f120"; }
+.flaticon-medical-result:before { content: "\f121"; }
+.flaticon-form:before { content: "\f122"; }
+.flaticon-heart-4:before { content: "\f123"; }
+.flaticon-heart-5:before { content: "\f124"; }
+.flaticon-care:before { content: "\f125"; }
+.flaticon-charity:before { content: "\f126"; }
+.flaticon-medicines:before { content: "\f127"; }
+.flaticon-test:before { content: "\f128"; }
+.flaticon-hear:before { content: "\f129"; }
+.flaticon-walk:before { content: "\f12a"; }
+.flaticon-wheelchair-1:before { content: "\f12b"; }
+.flaticon-cane:before { content: "\f12c"; }
+.flaticon-health:before { content: "\f12d"; }
+.flaticon-doctor:before { content: "\f12e"; }
+.flaticon-wheelchair:before { content: "\f12f"; }
+.flaticon-doctor-1:before { content: "\f130"; }
+.flaticon-heart:before { content: "\f131"; }
+.flaticon-orthopedics:before { content: "\f132"; }
+.flaticon-bone:before { content: "\f133"; }
+.flaticon-bone-structure-tip:before { content: "\f134"; }
+.flaticon-orthopedic-leg:before { content: "\f135"; }
+.flaticon-eye:before { content: "\f136"; }
+.flaticon-depilation:before { content: "\f137"; }
+.flaticon-pimples:before { content: "\f138"; }
+.flaticon-allergic:before { content: "\f139"; }
+.flaticon-hair:before { content: "\f13a"; }
+.flaticon-dermathology:before { content: "\f13b"; }
+.flaticon-epidermis:before { content: "\f13c"; }
+.flaticon-microscope:before { content: "\f13d"; }
+.flaticon-serum:before { content: "\f13e"; }
+.flaticon-ambulance:before { content: "\f13f"; }
+.flaticon-patient:before { content: "\f140"; }
+.flaticon-serum-1:before { content: "\f141"; }
+.flaticon-patient-1:before { content: "\f142"; }
+.flaticon-dropper:before { content: "\f143"; }
+.flaticon-list:before { content: "\f144"; }
