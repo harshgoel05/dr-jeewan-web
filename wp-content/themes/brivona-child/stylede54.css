@@ -8,140 +8,154 @@ Version:     0.1
 Tags:        light, white, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, responsive, retina
 */
 
-
 /* NOTE: Main theme's style.css file is already added in head tag. /*
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-.tm-col-bgcolor-darkgrey .tm-bg-layer-inner, .tm-bgcolor-darkgrey {
-	background-color: #040507!important;
+.tm-col-bgcolor-darkgrey .tm-bg-layer-inner,
+.tm-bgcolor-darkgrey {
+  background-color: #040507 !important;
 }
 .sbox-hover-borderbox .tm-sbox {
-	margin-bottom: 15px!important;
-	margin-top: 15px!important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
 }
-.breadcrumb-wrapper span, .breadcrumb-wrapper .breadcrumb-wrapper-inner span a {
-	color: #000 !important;
+.breadcrumb-wrapper span,
+.breadcrumb-wrapper .breadcrumb-wrapper-inner span a {
+  color: #000 !important;
 }
 .breadcrumb-wrapper .breadcrumb-wrapper-inner span a:hover {
-	color: #e61f26 !important;
+  color: rgb(38, 38, 238) !important;
 }
 .tm-titlebar-wrapper .breadcrumb-wrapper .breadcrumb-wrapper-inner {
-	background-color: rgba(255,255,255,1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
 }
 
-footer .widget .mkdf-working-hours-holder, footer .widget .mkdf-working-hours-holder .mkdf-wh-icon-holder {
-	background: #22252b;
+footer .widget .mkdf-working-hours-holder,
+footer .widget .mkdf-working-hours-holder .mkdf-wh-icon-holder {
+  background: #22252b;
 }
 .mkdf-working-hours-holder {
-	position: relative;
-	padding: 40px 26px 43px;
-	background-color: #5663c1;
-	color: #fff;
-	border-radius: 5px;
+  position: relative;
+  padding: 40px 26px 43px;
+  background-color: #5663c1;
+  color: #fff;
+  border-radius: 5px;
 }
 .mkdf-working-hours-holder .mkdf-wh-icon-holder {
-	text-align: center;
-	height: 68px;
-	width: 68px;
-	background-color: #5663c1;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	border-radius: 50%;
+  text-align: center;
+  height: 68px;
+  width: 68px;
+  background-color: #5663c1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
 }
-footer .widget .mkdf-working-hours-holder .mkdf-wh-icon-holder span.mkdf-wh-icon {
-	color: #5663c1;
+footer
+  .widget
+  .mkdf-working-hours-holder
+  .mkdf-wh-icon-holder
+  span.mkdf-wh-icon {
+  color: #5663c1;
 }
 footer .widget .mkdf-working-hours-holder .mkdf-wh-item {
-    border-bottom: 1px solid 
-    #393c49;
+  border-bottom: 1px solid #393c49;
 }
 .mkdf-working-hours-holder .mkdf-wh-item:first-child {
-    padding-top: 0;
+  padding-top: 0;
 }
 .mkdf-working-hours-holder .mkdf-wh-item {
-    color: 
-    #fff;
-    position: relative;
-    border-bottom: 1px solid rgba(255,255,255,.27);
-    padding: 0 2px;
-        padding-top: 0px;
-    margin: 0 -2px;
-    line-height: 35px;
+  color: #fff;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  padding: 0 2px;
+  padding-top: 0px;
+  margin: 0 -2px;
+  line-height: 35px;
 }
 .mkdf-working-hours-holder .mkdf-wh-item .mkdf-wh-day {
-    float: left;
-    width: 50%;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: 800;
-    letter-spacing: .05em;
-    font-size: 12px;
-    text-transform: uppercase;
+  float: left;
+  width: 50%;
+  white-space: nowrap;
+  text-align: left;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 .mkdf-working-hours-holder .mkdf-wh-item .mkdf-wh-hours {
-    float: right;
-    width: 50%;
-    white-space: nowrap;
-    text-align: right;
+  float: right;
+  width: 50%;
+  white-space: nowrap;
+  text-align: right;
 }
 .mkdf-working-hours-holder .mkdf-wh-button {
-    margin-top: 19px;
+  margin-top: 19px;
 }
 .mkdf-working-hours-holder .mkdf-wh-button .mkdf-btn.mkdf-btn-medium {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 footer .mkdf-working-hours-holder .mkdf-wh-button .mkdf-btn {
-    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
 .mkdf-working-hours-holder .mkdf-wh-button .mkdf-btn {
-    padding: 9px 15px;
-    color: 
-    #fff;
+  padding: 9px 15px;
+  color: #fff;
 }
 .mkdf-btn.mkdf-btn-solid {
-    color: #fff;
-    background-color: #e61f26;
-border: 2px solid
-    transparent;
+  color: #fff;
+  background-color: rgb(38, 38, 238);
+  border: 2px solid transparent;
 }
 .mkdf-btn {
-    position: relative;
-    width: auto;
-    margin: 0;
-    font-size: 12px;
-    line-height: 2em;
-    letter-spacing: .05em;
-    font-weight: 700;
-    border-radius: 3em;
-    text-transform: uppercase;
-    outline: 0;
-    box-sizing: border-box;
-    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-    padding: 10px 41px;
-    cursor: pointer;
+  position: relative;
+  width: auto;
+  margin: 0;
+  font-size: 12px;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  border-radius: 3em;
+  text-transform: uppercase;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  padding: 10px 41px;
+  cursor: pointer;
 }
-.mkdf-btn, .mkdf-btn.mkdf-btn-simple .mkdf-btn-text {
-    display: inline-block;
-    vertical-align: middle;
+.mkdf-btn,
+.mkdf-btn.mkdf-btn-simple .mkdf-btn-text {
+  display: inline-block;
+  vertical-align: middle;
 }
 .mkdf-working-hours-holder .mkdf-wh-icon-holder .fa.fa-calendar {
-	font-size: 30px;
-	margin-top: 15px;
+  font-size: 30px;
+  margin-top: 15px;
 }
-.site-footer .widget_recent_comments li.recentcomments::before, .site-footer .widget_recent_entries a::before, .site-footer .widget_meta a::before, .site-footer .widget_archive li a::before, .site-footer .widget_pages li a::before, .site-footer .widget_nav_menu li a::before {
-	background-color: #e61f26 !important;
+.site-footer .widget_recent_comments li.recentcomments::before,
+.site-footer .widget_recent_entries a::before,
+.site-footer .widget_meta a::before,
+.site-footer .widget_archive li a::before,
+.site-footer .widget_pages li a::before,
+.site-footer .widget_nav_menu li a::before {
+  background-color: rgb(38, 38, 238) !important;
 }
 #menu-footer-quick-links-1 li {
-	width: 50%;
-	float: left;
+  width: 50%;
+  float: left;
 }
